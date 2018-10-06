@@ -1,0 +1,11 @@
+<h1>{{header}}</h1>
+
+<ul>
+ {{#each celebrities }}
+  <li>{{celebrities.name}} </li>
+    <li>
+      {{celebrities.occupation}}</li> 
+    <li>{{celebrities.catchPhrase}}</li>
+</ul>
+  {{/each}}
+{{>celebrityForm}}
